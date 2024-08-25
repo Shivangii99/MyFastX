@@ -1,0 +1,96 @@
+.parent{
+    margin: 0px 80px;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.parent .left{
+    background-color: rgba(248, 248, 248, 1);
+    width: 35vw;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.parent .left img{
+    height: 300px;
+    margin: 10px 20px;
+}
+.parent .left h1{
+    color: rgba(99, 177, 120, 1);
+    font-size: 20px;
+    text-align: center;
+}
+.parent .left h1 span{
+    color: black;
+}
+.parent .left p{
+    margin: 0 20px;
+    font-size: 13px;
+    text-align: center;
+}
+.parent .right{
+    background-color: rgba(248, 248, 248, 1);
+    width: 65vw;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.parent .right .middle{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin: 10px 15px;
+}
+.parent .right .middle p:first-child{
+    color: rgba(99, 177, 120, 1);
+    font-size: 11px;
+}
+.parent .right .middle h1{
+    font-size: 19px;
+}
+.parent .right .middle p{
+    font-size: 12px;
+    font-weight: 650;
+}
+.parent .right .middle button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
+}
+.parent .right .last{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 9px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.parent .right .last .card{
+    width: 160px;
+    height: 175px;
+    background-color: rgba(242, 250, 245, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+}
+.parent.right .last .card img{
+    height: 55px;
+    width: 55px;
+}
+.parent .right .last .card p:first-child{
+    color: rgba(99, 177, 120, 1);
+    font-size: 12px;
+}
+.parent .right .last .card p{
+    font-size: 11px;
+    color: black;
+}

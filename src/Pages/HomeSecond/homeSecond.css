@@ -1,0 +1,176 @@
+.main .first{
+    margin: 10px 80px;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.main .first .side{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.main .first .side .heading{
+    display: flex;
+    flex-direction: column;
+    /* gap: 15px; */
+}
+.main .first .side .heading button{
+    background-color: rgba(245, 245, 244, 1);
+    width: 120px;
+    border: none;
+    border-left: 4px solid green;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-weight: 580;
+}
+.main .first .side .heading hr{
+    width: 125px;
+    height: 2px;
+    background-color: green;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+.main .first .side .cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.main .first .side .cards .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .first .side .cards .card img{
+    height: 40px;
+    width: 41px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(245, 245, 244, 1);
+    border: 2px dotted black;
+}
+.main .first .side .cards .card hr{
+    width: 35px;
+    border-top: dotted 1px
+}
+.main .first .side .cards .card div{
+    background-color: rgba(248, 248, 248, 1);
+    padding: 12px;
+    border-radius: 10px;
+}
+.main .first .side .cards .card div h6{
+    color: rgba(99, 177, 120, 1);
+    font-size: 14px;
+}
+.main .first .side .cards .card div p{
+    font-size: 14px;
+    font-weight: 650;
+}
+.main .first .image{
+    margin-top: 95px;
+}
+.main .next{
+    display: flex;
+    margin: 10px 80px;
+    gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
+.main .next .one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main .next .one .heading{
+    display: flex;
+    flex-direction: column;
+}
+.main .next .one .heading button{
+    background-color: rgba(245, 245, 244, 1);
+    width: 180px;
+    border: none;
+    border-left: 4px solid green;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-weight: 580;
+}
+.main .next .one .heading hr{
+    width: 125px;
+    height: 2px;
+    background-color: green;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+.main .next .one p{
+    font-size: 13px;
+    font-weight: 550;
+    max-width: 380px;
+}
+.main .next .one .flex-img{
+    display: flex;
+    gap: 0;
+}
+.main .next .one img{
+    height: 70px;
+    width: 90px;
+}
+.main .next .two{
+    width: 400px;
+    height: 320px;
+    background-color: rgba(242, 250, 245, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    gap: 14px;
+}
+.main .next .two .avatar{
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main .next .two .avatar img{
+    height: 50px;
+}
+.main .next .two .avatar p{
+    font-size: 14px;
+    font-weight: 700;
+}
+.main .next .two .star{
+    display: flex;
+    gap: 6px;
+}
+.main .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(242, 250, 245, 1);
+    padding: 50px;
+    margin-top: 50px;
+}
+.main .footer p{
+    font-size: 12px;
+    max-width: 500px;
+    text-align: center;
+}
+.main .footer h2{
+    font-size: 28px;
+}
+.main .footer button{
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 8px;
+}
